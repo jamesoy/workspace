@@ -8,6 +8,18 @@ import java.io.ObjectOutputStream;
 public class SingletonTest {
 
 	public static void main(String[] args) {
+		
+	}
+
+	private static void testReflection() {
+		
+	}
+	
+	private static String toString(Object o) {
+		return o.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(o));
+	}
+
+	private static void testStream() {
 		Singleton mySingleton = Singleton.getInstance();
 		EnumSingleton enumSingleton = EnumSingleton.instance;
 		
@@ -76,9 +88,5 @@ public class SingletonTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-
-	private static String toString(Object o) {
-		return o.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(o));
 	}
 }
