@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8" started-at="2014-02-27T07:36:49Z" finished-at="2014-02-27T07:36:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8" started-at="2014-02-27T07:36:49Z" finished-at="2014-02-27T07:36:49Z">
+      <class name="com.caveofprogramming.spring.test.testprog.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.caveofprogramming.spring.test.testprog.AppTest)]" name="testApp" duration-ms="2" started-at="2014-02-26T23:36:49Z" finished-at="2014-02-26T23:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="testGetString()[pri:0, instance:testGetString(com.caveofprogramming.spring.test.testprog.AppTest)]" name="testGetString" duration-ms="0" started-at="2014-02-26T23:36:49Z" finished-at="2014-02-26T23:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetString -->
+      </class> <!-- com.caveofprogramming.spring.test.testprog.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
