@@ -1,0 +1,24 @@
+new project:
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/jamesoy/workspace.git
+git push -u origin master
+
+
+update project:
+
+git commit -am "updates"
+git push
+
+
+other commands:
+
+git config --global user.name "jamesoy"
+git config --global user.email "jw88@live.com"
+git status
+git log
+git rm -r -f .metadata
+git rm *.class
+ 

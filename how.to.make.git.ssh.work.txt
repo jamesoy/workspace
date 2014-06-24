@@ -1,0 +1,13 @@
+
+
+In Git Bash:
+
+eval $(ssh-agent)
+ssh-add ~/.ssh/id_rsa_james_rove
+ssh-add ~/.ssh/id_rsa_james_yangwang_us
+ssh-add ~/.ssh/id_rsa_jw88_live_com
+
+github.com add pub keys under SSH
+
+try 'git push' and should not ask for user id and password
+
